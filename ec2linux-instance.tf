@@ -1,12 +1,9 @@
-terraform {
-    required_providers {
-        aws = {
+    provider "aws" {
              region = "us-west-1"
-            access-key = "AKIASDBK6MQWLRPIIGOG"
-            secrete_key = "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"
-        }
+            access_key = "AKIASDBK6MQWHBHFRBXR"
+            secret_key = "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"
     }
-}
+
 #resource block
 resource "aws_instance" "ubuntu"{
     ami = "ami-0f8e81a3da6e2510a"
