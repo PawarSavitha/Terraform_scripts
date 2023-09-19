@@ -1,7 +1,7 @@
     provider "aws" {
              region = "us-west-1"
-            access_key = "AKIASDBK6MQWHBHFRBXR"
-            secret_key = "7o4FwSwu2Zz0jQubWnLF01OVomPyuO06Wjd13fZO"
+            access_key = "your aws access_key"
+            secret_key = "your aws secret_key"
     }
 
 #resource block
